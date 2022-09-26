@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./js/types.js"></script>
+    <script defer src="./js/utilities.js"></script>
+    <script defer src="./js/properties.js"></script>
+    <script defer src="./js/clockCalendar.js"></script>
+    <script defer src="./js/weather.js"></script>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="" type="video/mp4">
+    </video>
+    <div id="calendar" style="display: none;">
+        <div class="background"></div>
+        <div id="dayName"></div>
+        <div id="day"></div>
+        <div id="month"></div>
+        <div id="year"></div>
+    </div>
+    <div id="clock" style="display: none;">
+        <div class="background"></div>
+        <div id="hours"></div>
+        <span>:</span>
+        <div id="minutes"></div>
+        <span id=secondsSeparator>:</span>
+        <div id="seconds"></div>
+        <div id="hrFormat"></div>
+    </div>
+    <div id="weather" style="display: none;">
+        <div class="background"></div>
+        <div id="temperature">--°</div>
+        <div class="details">
+            <div id="weatherImage" class="loading">
+                <img src="">
+            </div>
+            <div class="text">
+                <div id="weatherName"></div>
+                <div id="location"></div>
+            </div>
+        </div>
+        <div class="errorDetails">
+            <p class="message"></p>
+            <button id="retry">↻</button>
+        </div>
+    </div>
+</body>
+
+</html>

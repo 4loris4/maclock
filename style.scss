@@ -1,0 +1,308 @@
+@font-face {
+    font-family: Hasteristico;
+    src: url(Hasteristico.ttf);
+}
+
+:root {
+    --color: black;
+    --fillColor: white;
+    --animationStyle: 175ms ease-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hasteristico;
+    letter-spacing: 1px;
+}
+
+body {
+    overflow: hidden;
+    min-height: 100vh;
+    background: #1e1e1e;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+
+#clock {
+    --translateX: -50%;
+    --translateY: -50%;
+    --scale: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(var(--translateX), var(--translateY)) scale(var(--scale));
+    transform-origin: center;
+    display: flex;
+    font-size: 210px;
+    height: 163px;
+
+    .background {
+        $padding: 50px;
+        position: absolute;
+        top: -$padding;
+        left: -$padding;
+        width: calc(100% + 2 * #{$padding});
+        height: calc(100% + 2 * #{$padding});
+        border-radius: 50px;
+        background: rgb(0, 0, 0);
+        opacity: 0.25;
+        z-index: -1;
+    }
+
+    * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color)
+    }
+
+    div {
+        --percentage: 0%;
+        width: 250px;
+        height: 0px;
+        padding: 88px 25px 75px 25px;
+        color: transparent;
+        background-image: linear-gradient(var(--color) 50%, var(--fillColor) 0%);
+        background-position-y: var(--percentage);
+        background-size: 100% 200%;
+        background-clip: text;
+        transition: background-position var(--animationStyle);
+    }
+
+    #seconds {
+        color: var(--color);
+        background-image: none;
+    }
+
+    #hrFormat {
+        margin-top: 115px;
+        padding: 25px 25px 22.1px 25px;
+        width: 100px;
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+
+#calendar {
+    --translateX: -50%;
+    --translateY: 0%;
+    --scale: 1;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(var(--translateX), var(--translateY)) scale(var(--scale));
+    transform-origin: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 163px;
+
+    .background {
+        $padding: 50px;
+        position: absolute;
+        top: -$padding;
+        left: -$padding;
+        width: calc(100% + 2 * #{$padding});
+        height: calc(100% + 2 * #{$padding});
+        border-radius: 50px;
+        background: rgb(0, 0, 0);
+        opacity: 0.25;
+        z-index: -1;
+    }
+
+    * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color)
+    }
+
+    div {
+        --percentage: 0%;
+        height: 0px;
+        padding: 22px 0px 19px 0px;
+        margin: 2px;
+        color: transparent;
+        background-image: linear-gradient(var(--color) 50%, var(--fillColor) 0%);
+        background-position-y: var(--percentage);
+        background-size: 100% 200%;
+        background-clip: text;
+        transition: background-position var(--animationStyle);
+    }
+
+    #day {
+        font-weight: normal;
+        font-size: 100px;
+        padding: 42px 0px 36px 0px;
+    }
+}
+
+#weather {
+    --translateX: -50%;
+    --translateY: 0%;
+    --scale: 1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(var(--translateX), var(--translateY)) scale(var(--scale));
+    transform-origin: bottom center;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .background {
+        $padding: 20px;
+        position: absolute;
+        top: -$padding;
+        left: -2 * $padding;
+        width: calc(100% + 4 * #{$padding});
+        height: calc(100% + 2 * #{$padding});
+        border-radius: 50px;
+        background: rgb(0, 0, 0);
+        opacity: 0.25;
+        z-index: -1;
+    }
+
+    #temperature {
+        color: var(--fillColor);
+        font-size: 150px;
+        line-height: 106px;
+        padding-top: 9px;
+        transition: color 175ms ease-out;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        gap: 10px;
+
+        @keyframes loading {
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        #weatherImage.loading,
+        .text>div:empty {
+            opacity: 0.25;
+            background: black;
+            overflow: hidden;
+            border-radius: 4px;
+
+            &::after {
+                $width: 80%;
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                transform: translateX(-100%);
+                background: linear-gradient(90deg, transparent 0 #{50% - $width/2}, #454545, transparent #{50% + $width/2} 100%);
+                transition: opacity 0.5s linear;
+                animation: loading 1.5s infinite ease-in-out;
+            }
+        }
+
+        #weatherImage {
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                object-fit: contain;
+                height: 100%;
+                transform: scale(1.4);
+            }
+
+            &.loading img {
+                display: none;
+            }
+        }
+
+        .text>div {
+            color: var(--fillColor);
+            font-size: 20px;
+            text-transform: capitalize;
+            white-space: nowrap;
+
+            &:empty {
+                height: 25px;
+
+                &#weatherName {
+                    width: 150px;
+                    margin-bottom: 4px;
+                }
+
+                &#location {
+                    width: 75px;
+                }
+            }
+        }
+    }
+
+    .errorDetails {
+        display: none;
+        width: 325px;
+        height: 175px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .message {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        button {
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+            appearance: none;
+            border: none;
+            background: #4183F5;
+            color: white;
+            transition: background-color 200ms;
+
+            &:hover {
+                background: #1163F2;
+            }
+
+            &:active {
+                background: #0B55D4;
+            }
+        }
+    }
+
+    &.error {
+        &>*:not(.background) {
+            display: none;
+        }
+
+        .background {
+            display: block !important;
+            background: red !important;
+        }
+
+        .errorDetails {
+            display: flex;
+        }
+    }
+}
+
+body>div div {
+    transform: scale(1.01);
+}

@@ -1,0 +1,896 @@
+{
+	"authorsteamid" : "76561198053338378",
+	"contentrating" : "Everyone",
+	"description" : "This wallpaper comes with 3 (optional) widgets: a clock, a calendar and a weather widget.\r\nThe digits and words of the widgets gradually fill up (i.e.: the minute digits are completely empty at 0 seconds and completely filled at 59 seconds…)\r\nYou can fully customize the widgets and what to show in the background (either a color, an image or a video).\r\nIf you want to add some extra customization options or you think that I should change something just leave a comment below, thanks!\r\n\r\n[h1]Customization[/h1]\r\n[h2]Background Options[/h2]\r\n[b]Background type[/b]: The type of background that you want to use (you can then choose the background with the option below).\r\n\r\n[b]Background[/b]: The background to show behind the widgets:\r\n[list]\r\n    [*] Color\r\n    [*] Image - Supported extensions: jpeg, jpg, png, pnga, bmp, gif, svg, webp\r\n    [*] Video - Supported extensions: webm, ogg, ogv\r\n[/list]\r\nWallpaper Engine only accepts these video extensions so you will have to convert any other video file (i.e. mp4) into one of the extensions listed above.\r\n\r\n[h2]Widgets[/h2]\r\n[b]Locale[/b]: The language used for the calendar and weather widgets (i.e.: \"en\", \"it\", \"de\", …).\r\n\r\n[b]Linear Animations[/b]: Whether to use the default fill animation (only update the fill percentage when the previous changes: minutes update every second, hours update every minute, day updates every hour…) or use a different, linear, animation (update everything every second so you won't see any value \"jump\" to another value but it will instead slowly reach it).\r\n\r\n[b]Clock[/b]: Whether to show the clock widget or not.\r\n\r\n[b]Calendar[/b]: Whether to show the calendar widget or not.\r\n\r\n[b]Weather[/b]: Whether to show the weather widget or not.\r\n\r\n[h2]Clock Options[/h2]\r\n[b]Clock Size[/b]: Size of the clock (as a percentage of the default size), the slider only allows integer values between 50% and 200% but you can manually input any value.\r\n\r\n[b]Clock Alignment[/b]: How the clock should behave when moved and scaled by changing it's origin.\r\n\r\n[b]Horizontal Clock Position[/b]: Horizontal position of the clock, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Vertical Clock Position[/b]: Vertical position of the clock, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Clock Background[/b]: Whether to show the clock background or not.\r\n\r\n[b]Clock Background color[/b]: Color of the clock background.\r\n\r\n[b]Clock Background opacity[/b]: Opacity of the clock background.\r\n\r\n[b]Use 24h format[/b]: Whether to use the 24 or the 12 hour format, when disabled a \"AM/PM\" indicator will be shown to the right of the clock.\r\n\r\n[b]Show seconds[/b]: Whether to show the seconds or not.\r\n\r\n[h2]Calendar Options[/h2]\r\n[b]Calendar Size[/b]: Size of the calendar (as a percentage of the default size), the slider only allows integer values between 50% and 200% but you can manually input any value.\r\n\r\n[b]Calendar Alignment[/b]: How the calendar should behave when moved and scaled by changing it's origin.\r\n\r\n[b]Horizontal Calendar Position[/b]: Horizontal position of the calendar, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Vertical Calendar Position[/b]: Vertical position of the calendar, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Calendar Background[/b]: Whether to show the calendar background or not.\r\n\r\n[b]Calendar Background color[/b]: Color of the calendar background.\r\n\r\n[b]Calendar Background opacity[/b]: Opacity of the calendar background.\r\n\r\n[b]Element order/visibility[/b]: Can be set to \"Hidden\" to hide a specific part of the calendar or to a number 1-4 to specify the order in which the element should be drawn.\r\n\r\n[h2]Weather Options[/h2]\r\n[b]Weather Size[/b]: Size of the weather widget (as a percentage of the default size), the slider only allows integer values between 50% and 200% but you can manually input any value.\r\n\r\n[b]Weather Alignment[/b]: How the weather widget should behave when moved and scaled by changing it's origin.\r\n\r\n[b]Horizontal Weather Position[/b]: Horizontal position of the weather widget, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Vertical Weather Position[/b]: Vertical position of the weather widget, the slider only allows integer values between 0% and 100% but you can manually input any value.\r\n\r\n[b]Weather Background[/b]: Whether to show the weather widget background or not.\r\n\r\n[b]Weather Background color[/b]: Color of the weather widget background.\r\n\r\n[b]Weather Background opacity[/b]: Opacity of the weather widget background.\r\n\r\n[b]API Key[/b]: Required by the weather widget to fetch data. Create one for free at [url=https://openweathermap.org/api]OpenWeatherMap[/url] (don't share it with anyone)\r\n\r\n[b]Location[/b]: The location that needs to be used when fetching data for the weather widget.\r\n\r\n[b]Use Celsius[/b]: Whether to use Celsius or Fahrenheit for the temperature.\r\n\r\n[b]Dynamic Temperature Color[/b]: Instead of choosing a single color (chosen with the options below), automatically change the color based on the temperature (red for hot temperatures, blue for cold temperature and green for normal temperatures).\r\n\r\n[h2]Colors[/h2]\r\n[b]Different Digit/Word colors[/b]: Whether to use the same color for the \"normal color\" of every element or to use different ones:\r\nif disabled you'll be able to choose only one, shared, color otherwise you'll be able to choose a color for every single element that is enabled.\r\n\r\n[b]Different Digit/Word fill colors[/b]: Whether to use the same color for the \"filled color\" of every element or to use different ones:\r\nif disabled you'll be able to choose only one, shared, color otherwise you'll be able to choose a color for every single element that is enabled.\r\n\r\n[h1]Copyright[/h1]\r\nOriginal widgets by [url=https://www.deviantart.com/injust29]injust29[/url]\r\n[url=https://www.deviantart.com/injust29/art/LIM-T-1-2-344112531]Rainmeter skin[/url]\r\n\r\nFont: [url=https://www.dafont.com/hasteristico.font]Hasteristico[/url]\r\n\r\nAssets used in the previews:\r\n[olist]\r\n   [*] [url=https://youtu.be/7NyEX8DjOTw]Galaxy Loop[/url]\r\n   [*] Windows 11 Default Light Wallpaper\r\n[/olist]\r\n",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"ampmcolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enableclock.value == 1",
+				"index" : 52,
+				"order" : 152,
+				"text" : "AM/PM color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"ampmfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableclock.value == 1",
+				"index" : 62,
+				"order" : 162,
+				"text" : "AM/PM fill color",
+				"type" : "color",
+				"value" : "1 0.8117647058823529 0.3764705882352941"
+			},
+			"backgroundcolor" : 
+			{
+				"condition" : "backgroundselect.value == 1",
+				"index" : 2,
+				"order" : 102,
+				"text" : "Background color",
+				"type" : "color",
+				"value" : "0.11764705882352941 0.11764705882352941 0.11764705882352941"
+			},
+			"backgroundimage" : 
+			{
+				"condition" : "backgroundselect.value == 2",
+				"fileType" : "image",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Background image",
+				"type" : "file"
+			},
+			"backgroundselect" : 
+			{
+				"index" : 1,
+				"options" : 
+				[
+					{
+						"label" : "Color",
+						"value" : 1
+					},
+					{
+						"label" : "Image",
+						"value" : 2
+					},
+					{
+						"label" : "Video",
+						"value" : 3
+					}
+				],
+				"order" : 101,
+				"text" : "Background type",
+				"type" : "combo",
+				"value" : 2
+			},
+			"backgroundvideo" : 
+			{
+				"condition" : "backgroundselect.value == 3",
+				"fileType" : "video",
+				"index" : 4,
+				"order" : 104,
+				"text" : "Background video",
+				"type" : "file"
+			},
+			"calendaralignment" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 23,
+				"options" : 
+				[
+					{
+						"label" : "Top Left",
+						"value" : 1
+					},
+					{
+						"label" : "Top Center",
+						"value" : 2
+					},
+					{
+						"label" : "Top Right",
+						"value" : 3
+					},
+					{
+						"label" : "Middle Left",
+						"value" : 4
+					},
+					{
+						"label" : "Middle Center",
+						"value" : 5
+					},
+					{
+						"label" : "Middle Right",
+						"value" : 6
+					},
+					{
+						"label" : "Bottom Left",
+						"value" : 7
+					},
+					{
+						"label" : "Bottom Center",
+						"value" : 8
+					},
+					{
+						"label" : "Bottom Right",
+						"value" : 9
+					}
+				],
+				"order" : 123,
+				"text" : "Calendar Alignment",
+				"type" : "combo",
+				"value" : 2
+			},
+			"calendarbackground" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 26,
+				"order" : 126,
+				"text" : "Calendar Background",
+				"type" : "bool",
+				"value" : true
+			},
+			"calendarbackgroundcolor" : 
+			{
+				"condition" : "enablecalendar.value == 1 && calendarbackground.value == 1",
+				"index" : 27,
+				"order" : 127,
+				"text" : "Calendar Background color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"calendarbackgroundopacity" : 
+			{
+				"condition" : "enablecalendar.value == 1 && calendarbackground.value == 1",
+				"editable" : true,
+				"index" : 28,
+				"max" : 100,
+				"min" : 0,
+				"order" : 128,
+				"text" : "Calendar Background opacity",
+				"type" : "slider",
+				"value" : 25
+			},
+			"calendardayorder" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 30,
+				"options" : 
+				[
+					{
+						"label" : "1",
+						"value" : 1
+					},
+					{
+						"label" : "2",
+						"value" : 2
+					},
+					{
+						"label" : "3",
+						"value" : 3
+					},
+					{
+						"label" : "4",
+						"value" : 4
+					},
+					{
+						"label" : "Hidden",
+						"value" : 5
+					}
+				],
+				"order" : 130,
+				"text" : "Day order/visibility",
+				"type" : "combo",
+				"value" : 2
+			},
+			"calendarmonthorder" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 31,
+				"options" : 
+				[
+					{
+						"label" : "1",
+						"value" : 1
+					},
+					{
+						"label" : "2",
+						"value" : 2
+					},
+					{
+						"label" : "3",
+						"value" : 3
+					},
+					{
+						"label" : "4",
+						"value" : 4
+					},
+					{
+						"label" : "Hidden",
+						"value" : 5
+					}
+				],
+				"order" : 131,
+				"text" : "Month order/visibility",
+				"type" : "combo",
+				"value" : 3
+			},
+			"calendarsize" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"editable" : true,
+				"index" : 22,
+				"max" : 200,
+				"min" : 50,
+				"order" : 122,
+				"text" : "Calendar Size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"calendarweekdayorder" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 29,
+				"options" : 
+				[
+					{
+						"label" : "1",
+						"value" : 1
+					},
+					{
+						"label" : "2",
+						"value" : 2
+					},
+					{
+						"label" : "3",
+						"value" : 3
+					},
+					{
+						"label" : "4",
+						"value" : 4
+					},
+					{
+						"label" : "Hidden",
+						"value" : 5
+					}
+				],
+				"order" : 129,
+				"text" : "Weekday order/visibility",
+				"type" : "combo",
+				"value" : 1
+			},
+			"calendarx" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"editable" : true,
+				"index" : 24,
+				"max" : 100,
+				"min" : 0,
+				"order" : 124,
+				"text" : "Horizontal Calendar Position",
+				"type" : "slider",
+				"value" : 50
+			},
+			"calendary" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"editable" : true,
+				"index" : 25,
+				"max" : 100,
+				"min" : 0,
+				"order" : 125,
+				"text" : "Vertical Calendar Position",
+				"type" : "slider",
+				"value" : 20.75
+			},
+			"calendaryearorder" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 32,
+				"options" : 
+				[
+					{
+						"label" : "1",
+						"value" : 1
+					},
+					{
+						"label" : "2",
+						"value" : 2
+					},
+					{
+						"label" : "3",
+						"value" : 3
+					},
+					{
+						"label" : "4",
+						"value" : 4
+					},
+					{
+						"label" : "Hidden",
+						"value" : 5
+					}
+				],
+				"order" : 132,
+				"text" : "Year order/visibility",
+				"type" : "combo",
+				"value" : 4
+			},
+			"clock24hrformat" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"index" : 19,
+				"order" : 119,
+				"text" : "Use 24h format",
+				"type" : "bool",
+				"value" : true
+			},
+			"clockalignment" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"index" : 13,
+				"options" : 
+				[
+					{
+						"label" : "Top Left",
+						"value" : 1
+					},
+					{
+						"label" : "Top Center",
+						"value" : 2
+					},
+					{
+						"label" : "Top Right",
+						"value" : 3
+					},
+					{
+						"label" : "Middle Left",
+						"value" : 4
+					},
+					{
+						"label" : "Middle Center",
+						"value" : 5
+					},
+					{
+						"label" : "Middle Right",
+						"value" : 6
+					},
+					{
+						"label" : "Bottom Left",
+						"value" : 7
+					},
+					{
+						"label" : "Bottom Center",
+						"value" : 8
+					},
+					{
+						"label" : "Bottom Right",
+						"value" : 9
+					}
+				],
+				"order" : 113,
+				"text" : "Clock Alignment",
+				"type" : "combo",
+				"value" : 5
+			},
+			"clockbackground" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"index" : 16,
+				"order" : 116,
+				"text" : "Clock Background",
+				"type" : "bool",
+				"value" : true
+			},
+			"clockbackgroundcolor" : 
+			{
+				"condition" : "enableclock.value == 1 && clockbackground.value == 1",
+				"index" : 17,
+				"order" : 117,
+				"text" : "Clock Background color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"clockbackgroundopacity" : 
+			{
+				"condition" : "enableclock.value == 1 && clockbackground.value == 1",
+				"editable" : true,
+				"index" : 18,
+				"max" : 100,
+				"min" : 0,
+				"order" : 118,
+				"text" : "Clock Background opacity",
+				"type" : "slider",
+				"value" : 25
+			},
+			"clockseconds" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"index" : 20,
+				"order" : 120,
+				"text" : "Show seconds",
+				"type" : "bool",
+				"value" : false
+			},
+			"clockseparatorcolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enableclock.value == 1",
+				"index" : 48,
+				"order" : 148,
+				"text" : "Clock delimiter (:) color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"clocksize" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"editable" : true,
+				"index" : 12,
+				"max" : 200,
+				"min" : 50,
+				"order" : 112,
+				"text" : "Clock Size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"clockx" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"editable" : true,
+				"index" : 14,
+				"max" : 100,
+				"min" : 0,
+				"order" : 114,
+				"text" : "Horizontal Clock Position",
+				"type" : "slider",
+				"value" : 50
+			},
+			"clocky" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"editable" : true,
+				"index" : 15,
+				"max" : 100,
+				"min" : 0,
+				"order" : 115,
+				"text" : "Vertical Clock Position",
+				"type" : "slider",
+				"value" : 50
+			},
+			"daycolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enablecalendar.value == 1 && calendardayorder.value != 5",
+				"index" : 54,
+				"order" : 154,
+				"text" : "Day color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"dayfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enablecalendar.value == 1 && calendardayorder.value != 5",
+				"index" : 64,
+				"order" : 164,
+				"text" : "Day fill color",
+				"type" : "color",
+				"value" : "0.6235294117647059 0.8745098039215686 0.25098039215686274"
+			},
+			"daynamecolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enablecalendar.value == 1 && calendarweekdayorder.value != 5",
+				"index" : 53,
+				"order" : 153,
+				"text" : "Weekday color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"daynamefill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enablecalendar.value == 1 && calendarweekdayorder.value != 5",
+				"index" : 63,
+				"order" : 163,
+				"text" : "Weekday fill color",
+				"type" : "color",
+				"value" : "0.8745098039215686 0.5019607843137255 0.5607843137254902"
+			},
+			"differentcolors" : 
+			{
+				"condition" : "enableclock.value == 1 || enablecalendar.value == 1",
+				"index" : 46,
+				"order" : 146,
+				"text" : "Different Digit/Word colors",
+				"type" : "bool",
+				"value" : false
+			},
+			"differentfillcolors" : 
+			{
+				"condition" : "enableclock.value == 1 || enablecalendar.value == 1 || enableweather.value == 1",
+				"index" : 57,
+				"order" : 157,
+				"text" : "Different Digit/Word fill colors",
+				"type" : "bool",
+				"value" : true
+			},
+			"dynamictemperaturecolor" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 45,
+				"order" : 145,
+				"text" : "Dynamic Temperature Color",
+				"type" : "bool",
+				"value" : true
+			},
+			"enablecalendar" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Calendar",
+				"type" : "bool",
+				"value" : false
+			},
+			"enableclock" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "Clock",
+				"type" : "bool",
+				"value" : true
+			},
+			"enableweather" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Weather",
+				"type" : "bool",
+				"value" : false
+			},
+			"fillcolor" : 
+			{
+				"condition" : "differentfillcolors.value == 0 && (enableclock.value == 1 || enablecalendar.value == 1 || enableweather.value == 1)",
+				"index" : 58,
+				"order" : 158,
+				"text" : "Digit/Word fill color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"hourscolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enableclock.value == 1",
+				"index" : 49,
+				"order" : 149,
+				"text" : "Hours color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"hoursfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableclock.value == 1",
+				"index" : 59,
+				"order" : 159,
+				"text" : "Hours fill color",
+				"type" : "color",
+				"value" : "0.8745098039215686 0.5019607843137255 0.5607843137254902"
+			},
+			"linearanimations" : 
+			{
+				"condition" : "enableclock.value == 1 || enablecalendar.value == 1",
+				"index" : 7,
+				"order" : 107,
+				"text" : "Linear Animations",
+				"type" : "bool",
+				"value" : false
+			},
+			"locale" : 
+			{
+				"condition" : "enablecalendar.value == 1 || enableweather.value == 1",
+				"index" : 6,
+				"order" : 106,
+				"text" : "Locale",
+				"type" : "textinput",
+				"value" : "en"
+			},
+			"minutescolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enableclock.value == 1",
+				"index" : 50,
+				"order" : 150,
+				"text" : "Minutes color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"minutesfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableclock.value == 1",
+				"index" : 60,
+				"order" : 160,
+				"text" : "Minutes fill color",
+				"type" : "color",
+				"value" : "0.6235294117647059 0.8745098039215686 0.25098039215686274"
+			},
+			"monthcolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enablecalendar.value == 1 && calendarmonthorder.value != 5",
+				"index" : 55,
+				"order" : 155,
+				"text" : "Month color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"monthfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enablecalendar.value == 1 && calendarmonthorder.value != 5",
+				"index" : 65,
+				"order" : 165,
+				"text" : "Month fill color",
+				"type" : "color",
+				"value" : "0.3215686274509804 0.6078431372549019 0.9411764705882353"
+			},
+			"schemecolor" : 
+			{
+				"condition" : "0",
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color"
+			},
+			"secondscolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enableclock.value == 1",
+				"index" : 51,
+				"order" : 151,
+				"text" : "Seconds color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"secondsfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableclock.value == 1",
+				"index" : 61,
+				"order" : 161,
+				"text" : "Seconds fill color",
+				"type" : "color",
+				"value" : "0.3215686274509804 0.6078431372549019 0.9411764705882353"
+			},
+			"temperaturefill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableweather.value == 1 && dynamictemperaturecolor.value == 0",
+				"index" : 67,
+				"order" : 167,
+				"text" : "Temperature fill color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"text_background" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "<h3>Background Options</h3>",
+				"type" : "text"
+			},
+			"text_calendar" : 
+			{
+				"condition" : "enablecalendar.value == 1",
+				"index" : 21,
+				"order" : 121,
+				"text" : "<br><br><h3>Calendar Options</h3>",
+				"type" : "text"
+			},
+			"text_clock" : 
+			{
+				"condition" : "enableclock.value == 1",
+				"index" : 11,
+				"order" : 111,
+				"text" : "<br><br><h3>Clock Options</h3>",
+				"type" : "text"
+			},
+			"text_colors" : 
+			{
+				"condition" : "enableclock.value == 1 || enablecalendar.value == 1 || enableweather.value == 1",
+				"index" : 44,
+				"order" : 144,
+				"text" : "<br><br><h3>Colors</h3>",
+				"type" : "text"
+			},
+			"text_weather" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 33,
+				"order" : 133,
+				"text" : "<br><br><h3>Weather Options</h3>",
+				"type" : "text"
+			},
+			"text_widgets" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "<br><br><h3>Widgets</h3>",
+				"type" : "text"
+			},
+			"textcolor" : 
+			{
+				"condition" : "differentcolors.value == 0 && (enableclock.value == 1 || enablecalendar.value == 1)",
+				"index" : 47,
+				"order" : 147,
+				"text" : "Digit/Word color",
+				"type" : "color",
+				"value" : "0.3764705882352941 0.3764705882352941 0.3764705882352941"
+			},
+			"usecelsius" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 43,
+				"order" : 143,
+				"text" : "Use Celsius",
+				"type" : "bool",
+				"value" : true
+			},
+			"weatheralignment" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 35,
+				"options" : 
+				[
+					{
+						"label" : "Top Left",
+						"value" : 1
+					},
+					{
+						"label" : "Top Center",
+						"value" : 2
+					},
+					{
+						"label" : "Top Right",
+						"value" : 3
+					},
+					{
+						"label" : "Middle Left",
+						"value" : 4
+					},
+					{
+						"label" : "Middle Center",
+						"value" : 5
+					},
+					{
+						"label" : "Middle Right",
+						"value" : 6
+					},
+					{
+						"label" : "Bottom Left",
+						"value" : 7
+					},
+					{
+						"label" : "Bottom Center",
+						"value" : 8
+					},
+					{
+						"label" : "Bottom Right",
+						"value" : 9
+					}
+				],
+				"order" : 135,
+				"text" : "Weather Alignment",
+				"type" : "combo",
+				"value" : 2
+			},
+			"weatherapikey" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 41,
+				"order" : 141,
+				"text" : "API Key",
+				"type" : "textinput",
+				"value" : ""
+			},
+			"weatherbackground" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 38,
+				"order" : 138,
+				"text" : "Weather Background",
+				"type" : "bool",
+				"value" : false
+			},
+			"weatherbackgroundcolor" : 
+			{
+				"condition" : "enableweather.value == 1 && weatherbackground.value == 1",
+				"index" : 39,
+				"order" : 139,
+				"text" : "Weather Background color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"weatherbackgroundopacity" : 
+			{
+				"condition" : "enableweather.value == 1 && weatherbackground.value == 1",
+				"editable" : true,
+				"index" : 40,
+				"max" : 100,
+				"min" : 0,
+				"order" : 140,
+				"text" : "Weather Background opacity",
+				"type" : "slider",
+				"value" : 25
+			},
+			"weatherfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enableweather.value == 1",
+				"index" : 68,
+				"order" : 168,
+				"text" : "Weather text fill color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"weatherlocation" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"index" : 42,
+				"order" : 142,
+				"text" : "Location",
+				"type" : "textinput",
+				"value" : "Rome"
+			},
+			"weathersize" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"editable" : true,
+				"index" : 34,
+				"max" : 200,
+				"min" : 50,
+				"order" : 134,
+				"text" : "Weather Size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"weatherx" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"editable" : true,
+				"index" : 36,
+				"max" : 100,
+				"min" : 0,
+				"order" : 136,
+				"text" : "Horizontal Weather Position",
+				"type" : "slider",
+				"value" : 50
+			},
+			"weathery" : 
+			{
+				"condition" : "enableweather.value == 1",
+				"editable" : true,
+				"index" : 37,
+				"max" : 100,
+				"min" : 0,
+				"order" : 137,
+				"text" : "Vertical Weather Position",
+				"type" : "slider",
+				"value" : 2
+			},
+			"yearcolor" : 
+			{
+				"condition" : "differentcolors.value == 1 && enablecalendar.value == 1 && calendaryearorder.value != 5",
+				"index" : 56,
+				"order" : 156,
+				"text" : "Year color",
+				"type" : "color",
+				"value" : "0.375 0.375 0.375"
+			},
+			"yearfill" : 
+			{
+				"condition" : "differentfillcolors.value == 1 && enablecalendar.value == 1 && calendaryearorder.value != 5",
+				"index" : 66,
+				"order" : 166,
+				"text" : "Year fill color",
+				"type" : "color",
+				"value" : "1 0.8117647058823529 0.3764705882352941"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Unspecified" ],
+	"title" : "Minimal Animated Clock",
+	"type" : "Web",
+	"version" : 19,
+	"visibility" : "public",
+	"workshopid" : "2004087015",
+	"workshopurl" : "steam://url/CommunityFilePage/2004087015"
+}
